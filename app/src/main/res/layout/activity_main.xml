@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/primary"
+        android:elevation="5dp" />
+    <!--com.gc.materialdesign.views.LayoutRipple >
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:background="@color/primary_light"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonone"
+            android:id="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary_text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/result"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textStyle="bold"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/title"
+            android:id="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_above="@+id/textView2"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/hinttwo"
+            android:id="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_above="@+id/button"
+            android:layout_marginBottom="20dp" />
+    </RelativeLayout>
+    <!--/com.gc.materialdesign.views.LayoutRipple-->
+</LinearLayout>

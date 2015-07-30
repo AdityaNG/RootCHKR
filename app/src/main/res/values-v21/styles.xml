@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeM" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@menu/menu_main</item>
+        <item name="android:actionBarSize">@dimen/action_bar_Size</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_light</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+</resources>

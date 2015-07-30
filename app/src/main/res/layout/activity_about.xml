@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:theme="@style/AppTheme"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <com.gc.materialdesign.views.Card
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+        android:id="@+id/imageDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <TextView
+        android:id="@+id/textDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutDESCRIPTION"
+        android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@id/imageDialog"/>
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/textDialog"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </com.gc.materialdesign.views.Card>
+
+
+
+</LinearLayout>

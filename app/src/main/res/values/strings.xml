@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Root CHKR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="about">About</string>
+    <string name="aboutDESCRIPTION">A simple, lightweight <i>ad-free</i> Root Checker Application for Android Ice Cream Sandwich or above</string>
+    <string name="buttonone">Check Root</string>
+    <string name="title">Click the button below to check for Root Access</string>
+    <string name="hinttwo">Remember to \"Grant Access\" on the popup dialog</string>
+    <string name="title_activity_about">about</string>
+    <string name="action_settings">Settings</string>
+</resources>

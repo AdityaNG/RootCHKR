@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/classes-591021bbc9174069f8e87dc1e8c48e091f39c594.jar" />
+    </item>
+    <item
+        jar="/Users/Aditya/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/library-2.4.0-11ff945ae8ed07ba60a4bbd71ce941dcb6dd658c.jar" />
+    </item>
+    <item
+        jar="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-a05f6674547b753ba99adfd268426afbe0fe3733.jar" />
+    </item>
+    <item
+        jar="/Users/Shared/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-fbf936d48ec407e2b78a2203e6e313d857f6ab55.jar" />
+    </item>
+    <item
+        jar="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/classes-ddab61ea1e3cc8a0d4f9f48e16f2732de8df003e.jar" />
+    </item>
+    <item
+        jar="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/Aditya/AndroidStudioProjects/RootCHKR/app/build/intermediates/pre-dexed/debug/classes-653d24f3f055c0765c0b038fce6c81823cf392cf.jar" />
+    </item>
+
+</items>
